@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Signup</h1>
+                <p>It Just Takes 30 Seconds</p>
+            </header>
+            <main class="Signup-body">
+                <form id="signupForm">
+                    <p>
+                        <label for="fullname">Company Name</label>
+                        <input type="text" id="fullname" placeholder="national institute of technology patna" required>
+                    </p>
+                    <p>
+                        <label for="email">Company Email</label>
+                        <input type="email" id="email" placeholder="nitp.123@gmail.com">
+                    </p>
+                    <p>
+                        <label for="password">Company New Password</label>
+                        <input type="password" id="password" placeholder="at least 8 character" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="create account">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an Account? <a href="login.html">login</a></p>
+                <p><a href="index.html">Go to main page</a></p>
+            </footer>
+        </div>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <script>
+        document.getElementById('signupForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            // Redirect to index2.html
+            window.location.href = 'index2.html';
+        });
+    </script>
+</body>
+</html>

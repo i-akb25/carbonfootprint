@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="register.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="outer-box">
+        <div class="inner-box">
+            <header class="signup-header">
+                <h1>Login</h1>
+                <p>It Just Takes 30 Seconds</p>
+            </header>
+            <main class="Signup-body">
+                <form id="loginForm">
+                    <p>
+                        <label for="email">Company Email</label>
+                        <input type="email" id="email" placeholder="nitp.123@gmail.com">
+                    </p>
+                    <p>
+                        <label for="password">company Password</label>
+                        <input type="password" id="password" placeholder="at least 8 characters" required>
+                    </p>
+                    <p>
+                        <input type="submit" id="submit" value="Login">
+                    </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Don't have an Account? <a href="register.html">Signup</a> </p>
+                <p><a href="index.html">Go to main page</a></p>
+            </footer>
+        </div>
+
+        <div class="circle c1"></div>
+        <div class="circle c2"></div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent form submission
+            // Redirect to the desired page (e.g., index2.html)
+            window.location.href = 'index2.html';
+        });
+    </script>
+</body>
+</html>

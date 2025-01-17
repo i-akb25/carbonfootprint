@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: rgb(7, 154, 213);
+    background-image: url("scope11.jpg") ;
+    object-fit: cover;
+}
+.heading{
+    /* background-color: rgb(59, 59, 227); */
+    height: 80px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    color: white;
+    background-color: rgb(22, 128, 144);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: sticky;
+    opacity: 0.8;
+    
+}
+.head:hover{
+    /* transform: translate(40px,80px); */
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: drop-shadow(0 0 10px #333);
+    opacity: 1;
+  }
+.head p{
+    font-size: 35px;
+}
+.outer{
+    background-color:rgb(7, 154, 213);
+    height: 50%;
+    width: 60vw;
+    margin-left: 300px;
+    margin-top: 80px;
+    margin-right: 150px;
+    margin-bottom: 50px;
+    color: white;
+    opacity: 0.7;
+  
+   
+}
+.fuels{
+    background-color: #005F6A;
+   /* margin:20px ; */
+   font-size: 30px;
+
+}
+.form-example-1
+{
+/* margin: 20px; */
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.form-example-1 input{
+    margin-left: 10px;
+    height: 25px;
+    width: 200px
+
+}
+.form-example-2
+{
+    /* margin: 20px; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-example-2 input{
+    margin-left: 10px;
+    height: 25px;
+    width: 200px
+
+}
+
+.refrigrants{
+    background-color: #3d5d79;
+    /* margin: 20px; */
+    margin: inline start 10px;
+    font-size: 30px;
+    height: 50%;
+
+
+}
+.refrigant-1{
+margin: 12px;
+padding: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.refrigant-1 input{
+    margin-left: 45px;
+    height: 25px;
+    width: 200px;
+}
+
+.refrigant-2{
+margin: 12px;
+padding: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.refrigant-2 input{
+    margin-left: 45px;
+    height: 25px;
+    width: 200px;
+}
+
+.refrigant-3{
+    margin: 12px;
+padding: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.refrigant-3 input{
+    margin-left: 10px;
+    height: 25px;
+    width: 200px;
+}
+
+.refrigant-4{
+    margin: 12px;
+padding: 12px;
+display: flex;
+justify-content: center;
+align-items: center;
+    
+}
+.refrigant-4 input{
+    margin-left: 10px;
+    height: 25px;
+    width: 200px;
+}
+.lpg
+{
+    background-color: #005F6A;
+    /* margin: 20px; */
+    height: 60px;
+    font-size: 30px;
+}
+.lpgdata{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lpgdata input{
+    margin-left: 20px;
+    height: 25px;
+    width: 200px;
+}
+
+.png
+{
+    background-color: #005F6A;
+    /* margin: 20px; */
+    height: 80px;
+    font-size: 30px;
+}
+
+.pngdata{
+    /* margin: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pngdata input{
+    margin-left: 20px;
+    height: 25px;
+    width: 200px;
+}
+
+.outer1
+ {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ .inner1 button
+ {
+    margin-bottom: 40px;
+  height: 100px;
+  width: 200px;
+  border-radius: 60%;
+  background-color: rgb(127, 207, 232);
+ }
+ .inner1 button:hover{
+  background-color: rgb(4, 33, 42);
+  color: white;
+  transform: scale(1.07);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+ }
+

@@ -1,0 +1,154 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: rgb(3, 37, 63);
+   
+}
+.main{
+    margin: 2px;
+   
+    background-image: url("electric-background-ajls9e7ox1fxljz2.jpeg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+    background-size: cover;
+    color: white;
+   
+}
+.heading{
+    height: 90px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    color: white;
+    background-color: rgb(3, 37, 63);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: sticky;
+    opacity: 0.8;
+    
+}
+.head:hover{
+    /* transform: translate(40px,80px); */
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: drop-shadow(0 0 10px #333);
+    opacity: 1;
+  }
+
+.head p{
+    font-size: 35px;
+}
+.outer{
+    background-color:rgb(15, 41, 60);
+    height: 500px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    color: white;
+    opacity: 0.7;
+
+   
+}
+.electricity{
+    background-color: rgb(10, 62, 99);
+   /* margin:20px ; */
+   margin-bottom: 20px;
+   /* padding: 10px; */
+   font-size: 20px;
+   height: 250px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.electric
+{
+
+padding: 10px;
+font-size: 40px;
+margin-left: 80px;
+margin-right: 80px;
+margin-top:20px;
+margin-bottom: 20px;
+
+
+
+
+}
+.electric input{
+    height: 30px;
+    width: 200px;
+    margin-left: 35px;
+    font-size: 30px;
+}
+
+.solarpower{
+    background-color: #3d5d79;
+    /* margin: 20px; */
+    /* padding: 10px; */
+    font-size: 20px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.solarpower input{
+      margin-right: 55px;
+}
+.solar{
+margin: 10px;
+padding: 10px;
+font-size: 40px;
+margin-left: 60px;
+}
+.solar input{
+    height: 30px;
+    width: 200px;
+    margin-left: 15px; 
+    font-size: 30px;  
+}
+.outer1
+ {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ .inner1 button
+ {
+    margin-bottom: 40px;
+  height: 100px;
+  width: 200px;
+  border-radius: 60%;
+  background-color: rgb(127, 207, 232);
+ }
+ .inner1 button:hover{
+  background-color: rgb(4, 33, 42);
+  color: white;
+  transform: scale(1.07);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+ }
+
+
+
+    
+
+
+

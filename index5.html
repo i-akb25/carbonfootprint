@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOPE-3 EMISSIONS</title>
+    <link rel="stylesheet" href="style5.css">
+</head>
+<body>
+    
+    <div class="main">
+    <div class="heading">
+
+        <div class="head"><p>SCOPE-3 EMISSIONS DATA COLLECTION</p></div>
+    </div>
+    
+    <div class="outer">
+        <form action="" method="get" class="form-example">
+        <div class="transport">
+            <div class="wheels2">
+                <label for="name">Transport(2-Wheels) </label>
+                <input type="text" name="name" id="two-Wheels" placeholder="In Number"required />
+            </div>
+            <div class="wheels4">
+                <label for="name">Transport(4-Wheels) </label>
+                <input type="text" name="name" id="four-wheels" placeholder="In Number" required />
+            </div>
+        </div>
+        <div class="waste">
+            <div class="sewage">
+                <label for="name">Enter Sewage Treatment Consumption </label>
+                <input type="text" name="name" id="sewage" placeholder="In Liters" required />
+            </div>
+
+            <div class="water">
+                <label for="name">Enter Water Supply Consumption </label>
+                <input type="text" name="name" id="water" placeholder="In Liters" required />
+            </div>
+            <div class="disposal">
+                <label for="name">Enter Waste Disposal Consumption </label>
+                <input type="text" name="name" id="disposal" placeholder="In Kg" required />
+            </div>
+            <div class="papers">
+                <label for="name">Enter Paper Consumption </label>
+                <input type="text" name="name" id="papers" placeholder="In Kg" required />
+            </div>
+            
+            </div>
+        <div class="travel">
+            <div class="road">
+                <label for="name">Travel-Road </label>
+                <input type="text" name="name" id="road" placeholder="In Km"required />
+            </div>
+            <div class="rail">
+                <label for="name">Travel-Rail </label>
+                <input type="text" name="name" id="rail" placeholder="In Km" required />
+
+            </div>
+            <div class="air">
+                <label for="name">Travel-Air </label>
+                <input type="text" name="name" id="air" placeholder="In Km" required />
+            </div>
+            
+
+        </div>
+        <div class="plantation">
+            <div class="plant">
+                <label for="name"> Plantation Around Your Industry </label>
+                <input type="text" name="name" id="plantation" placeholder="In Numbers"required />
+            </div>
+        </div>
+    </form>
+    </div>
+    <div class="outer1">
+        <div class="inner1">
+            <!-- <button>PROCEED NOW </button> -->
+            
+            <!-- Link to index3.html with anchor tag -->
+            <!-- <a href="index6.html"><button>PROCEED NOW </button></a> -->
+            <button onclick="saveToLocalstorage3('index6.html')">PROCEED NOW !</button>
+        </div>
+       </div>
+</div>
+</div>
+<script src="myscript.js"></script>
+
+    
+</body>
+</html>

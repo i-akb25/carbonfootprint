@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* #wrapper{
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 10px;
+} */
+
+ header {
+   margin: 2px;
+   background-image: url("secondpage.jpg");
+   
+   height: 1200px;
+   width: 100%;
+   background-size: cover;
+   color: white;
+
+    /* object-fit: contain; */
+    
+ }
+ .heading
+ {
+   height: 50px;
+   width: 900px;
+   background-color: rgb(43, 47, 58);
+   margin-left: 20%;
+   text-align: center;
+   
+   margin-right:20%;
+ }
+ 
+ .scope1
+ {
+   height: 200px;
+   width: auto;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   background-color: rgb(156, 151, 151);
+   border-radius:40px;
+   opacity: 0.7;
+   
+ }
+ 
+
+ .scope1:hover{
+   /* transform: translate(40px,80px); */
+   /* transform: scale(1.09,1.09);
+   transition:ease-out;
+   transition-delay: 0.2s; */
+   opacity: 1;
+   transform: scale(1.03);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+  filter: grayscale(0%);
+   
+ }
+ /* .scope1:hover img{
+  filter: grayscale(0%);
+} */
+ .scope1 .q1
+ {
+   text-align: center;
+   margin: 20px;
+   color: black;
+   font-size: 30px;
+
+ }
+
+ .scope1 .ans1{
+   text-align: center;
+   font-size: 25px;
+ }
+ .scope2
+ {
+   height: 200px;
+   width: auto;
+   margin-bottom: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   margin-top: 150px;
+   background-color: rgb(156, 151, 151);
+   border-radius:40px;
+   opacity: 0.7;
+   
+  
+ }
+ .scope2:hover{
+   /* transform: translate(40px,80px); */
+   transform: scale(1.03);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+  opacity: 1;
+ }
+ .scope2 .q2
+ {
+   text-align: center;
+ margin: 20px;
+ color: black;
+ font-size: 30px;
+
+ 
+
+ }
+ .scope2 .ans2{
+   text-align: center;
+   font-size: 25px;
+ }
+ .scope3
+ {
+   height: 200px;
+   width: auto;
+   margin-bottom: 20px;
+   margin-left: 80px;
+   margin-right: 80px;
+   margin-top: 150px;
+   background-color: rgb(156, 151, 151);
+   border-radius:40px;
+   opacity: 0.7;
+ }
+ .scope3:hover{
+   /* transform: translate(40px,80px); */
+   transform: scale(1.03);
+   transition: 0.5s;
+   filter: drop-shadow(0 0 10px #333);
+   opacity: 1;
+ }
+ .scope3 .q3
+ {
+   text-align: center;
+   margin: 20px;
+   color: black;
+   font-size: 30px;
+
+ }
+ .scope3 .ans3{
+   text-align: center;
+   font-size: 25px;
+ }
+ .outer
+ {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ .inner button
+ {
+  height: 100px;
+  width: 200px;
+  border-radius: 60%;
+  background-color: rgb(23, 133, 176);
+ }
+ .inner button:hover{
+  background-color: rgb(16, 16, 80);
+  color: white;
+  transform: scale(1.03);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+ }
+
+
+ 

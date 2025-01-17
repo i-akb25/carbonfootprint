@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.carbon-footprint {
+    text-align: center;
+}
+
+.carbon-value {
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.carbon-value-box {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 36px;
+    font-weight: bold;
+}

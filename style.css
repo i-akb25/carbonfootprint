@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+ body{ 
+     font-family: 'Poppins', sans-serif; 
+ } 
+ header{ 
+     width: 100%; 
+     max-height: 50%;
+     margin: auto; 
+     
+ }
+ /* header nav{ 
+    max-width: 100%;
+    margin:auto; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-around;
+    background-color:rgb(52, 85, 3); 
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+} */
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header ul li {
+    padding: 3px 75px;
+}
+
+
+header ul li a{ 
+    text-decoration: none; 
+    color: white; 
+    font-size: 20px; 
+    font-weight: 400px; 
+    transition: .3s linear; 
+ 
+} 
+header ul li a:hover{ 
+    background-color: #3e8e41;
+    color: white;
+}
+header .bi-three-dots{ 
+    display: none; 
+} 
+
+header .content{ 
+    content: ''; 
+    position: absolute; 
+   width: 100%;
+    height: 93%; 
+   /* border: 1px solid black;*/ 
+    background: url("image3.jpg")no-repeat center center/cover; 
+    /* object-fit: cover;
+    z-index: -1;  */
+    cursor: pointer;
+    
+} 
+ 
+header .content .cont_bx { 
+    position: relative;
+    width: 100%; 
+    height: 100%; 
+    color: rgb(27, 18, 39); 
+    
+    display: flex;
+    align-items:center  ;
+    
+    
+} 
+header .content  h1{ 
+   line-height: 30px; 
+   font-weight: 800; 
+   margin-top: 15px; 
+   font-size: 40px;
+   text-align: center;
+} 
+
+
+header .content .cont_bx .btn {
+    padding: 16px 32px;
+    border-radius: 20px;
+    text-decoration: none;   /*done after linking the .btn*/
+    color: aliceblue;      /*done after linking the .btn*/
+    border: 2px solid black;
+    background: rgb(234, 201, 140);
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+    transition: background-color 0.5s, color 0.5s;
+    cursor: pointer;
+}
+
+header .content .cont_bx .btn:hover {
+    background: linear-gradient(90deg, #3e8e41, #13dcd9); /* Initial gradient */
+    background-size: 200% 100%; /* Specify the width and height of the gradient */
+    animation: gradientMove 1s ease infinite; /* Apply animation */
+    color: white; /* Text color change */
+}
+
+@keyframes gradientMove {
+    0% {
+        background-position: 0 50%; /* Start position of the gradient */
+    }
+    50% {
+        background-position: 100% 50%; /* Middle position of the gradient */
+    }
+    100% {
+        background-position: 0 50%; /* End position of the gradient */
+    }
+}
+
+/* header .content .cont_bx .btn:hover {
+    background-color: #3e8e41;
+    color: white;
+} */
+
+header .content .cont_bx .btn:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+    /* z-index: -100; */
+}
+
+
+
+
+
+  main .boxes{
+    margin-top: 90vh;
+    border: 2px solid black;
+    color:black;
+    background-color: rgb(182, 189, 182);
+  }
+  .boxes .q{
+    height: 80px;
+    background-color:rgb(4, 43, 4);
+    text-align: center;
+    font-family: poppins;
+    display: flex;
+    color: white;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    /* padding: 10px; */
+  }
+  .answer1
+{
+    margin: 5px;
+    background-color:chartreuse;
+    height: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color:  #e1eacd; 
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.answer2
+{
+    margin: 5px;
+    background-color:chartreuse;
+    height: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #e1eacd; 
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.answer3
+{
+    margin: 5px;
+    background-color:chartreuse;
+    height: 225px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #e1eacd; 
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.q{
+    border: 2px solid rgb(4, 43, 4);
+    font-size: 30px;
+    height: 50px;
+}
+.foo{
+    width: 100%;
+    background-image: url("adarsh.jpg");
+    background-size: cover;
+    object-fit: cover;
+    color: white;
+    height: 50vh;
+    overflow: hidden;
+
+}
+
+.para
+{
+    color: grey;
+    font-weight: 1000 ;
+    font-size: 50px; 
+   
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* font:; */
+    
+}
+
+  
+  nav {
+    background-color: rgb(52, 85, 3);
+    position: sticky;
+    top:0;
+    /* z-index: 1000; */
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    background-color: #124715;
+  }
+  
+  @media (max-width: 768px) {
+    header ul li {
+        padding: 3px 10px; /* Adjust padding for smaller devices */
+    }
+
+    header ul li a {
+        font-size: 14px; /* Adjust font size for smaller devices */
+    }
+
+    header .content h1 {
+        font-size: 30px; /* Adjust font size for smaller devices */
+    }
+
+    header .content .cont_bx .btn {
+        padding: 10px 20px; /* Adjust padding for smaller devices */
+       
+    }
+}
+
+

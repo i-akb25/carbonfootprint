@@ -1,0 +1,255 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+.main{
+    margin: 2px;
+   
+    background-image: url("baum-co2-bindung-850x448.jpeg");
+    opacity: 1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    
+    
+    background-size: cover;
+    color: white;
+   
+}
+.heading{
+    height: 90px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    color: white;
+    background-color: rgb(189, 144, 62);
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    position: sticky;
+    opacity: 0.8;
+    
+}
+.head:hover{
+    /* transform: translate(40px,80px); */
+    transform: scale(1.1);
+    transition: 0.4s;
+    filter: drop-shadow(0 0 10px #333);
+    opacity: 1;
+  }
+.head p{
+    font-size: 35px;
+}
+.outer{
+    background-color:rgb(191, 233, 123);
+    height: 900px;
+    width: auto;
+    margin-left: 170px;
+    /* margin-top: 100px; */
+    margin-right: 170px;
+    margin-bottom: 40px;
+    color: white;
+    opacity: 0.7;
+   
+}
+.transport{
+    background-color: rgb(141, 215, 30);
+   /* margin:20px ; */
+   font-size: 20px;
+   margin-top: 10px;
+  
+}
+.wheels2
+{
+margin: 20px;
+padding: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-size: 30px;
+
+
+}
+.wheels2 input{
+    height: 25px;
+    margin-left: 10px;
+}
+.wheels4
+{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+font-size: 30px;
+
+}
+.wheels4 input{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.waste{
+    background-color: rgb(81, 133, 8);
+    /* margin: 20px; */
+    font-size: 20px;
+    height: 400px;
+
+}
+.sewage{
+margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.sewage input{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.water{
+ margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin-top: 40px;
+}
+.water input{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.disposal{
+margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin-top: 40px;
+    
+}
+.disposal input{
+    height: 25px;
+    margin-left: 10px;
+}
+
+.papers{
+margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+margin-top: 40px;
+    
+}
+.papers input{
+    height: 25px;
+    margin-left: 10px;
+}
+.travel
+{
+    background-color: rgb(17, 111, 5);
+    /* margin: 20px; */
+    height: 200px;
+    font-size: 20px;
+}
+.road{
+    margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.road input{
+    height: 25px;
+    margin-left: 10px;
+}
+.rail{
+    margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.rail input{
+    height: 25px;
+    margin-left: 10px;
+}
+.air{
+    margin: 10px;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+}
+.air input{
+    height: 25px;
+    margin-left: 10px;
+}
+
+
+
+
+.plantation
+{
+    background-color: rgb(20, 88, 8);
+    /* margin: 20px; */
+    height: 100px;
+    font-size: 30px;
+}
+.plant{
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.plant input{
+    height: 25px;
+    margin-left: 10px;
+}
+.outer1
+ {
+  display: flex;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+ 
+ }
+ .inner1 button
+ {
+    margin-bottom: 40px;
+  height: 100px;
+  width: 200px;
+  border-radius: 60%;
+  background-color: rgb(127, 207, 232);
+ }
+ .inner1 button:hover{
+  background-color: rgb(4, 33, 42);
+  color: white;
+  transform: scale(1.07);
+  transition: 0.5s;
+  filter: drop-shadow(0 0 10px #333);
+ }
+
+ 
+
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCOPE1 EMISSION CALCULATIONS</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <div class="heading">
+        <div class="head"><p>SCOPE-1 EMISSIONS DATA COLLECTION</p></div>
+    </div>
+    <div class="outer">
+        <form action="" method="get" class="form-example">
+        <div class="fuels">
+            <div class="form-example-1">
+                <label for="name">Enter the petrol consumption   </label>
+            
+                <input type="text" name="name" id="petrol"  placeholder="In Liters" required />
+            </div>
+            <div class="form-example-2">
+                <label for="name">Enter the diesel consumption   </label>
+                <input type="text" name="name" id="diesel" placeholder="In Liters" required />
+            </div>
+        </div>
+        <div class="refrigrants">
+            <div class="refrigant-1">
+                <label for="name">Enter the Refrigerant R22 </label>
+                <input type="text" name="name" id="R1" placeholder="In Liters" required />
+            </div>
+
+            <div class="refrigant-2">
+                <label for="name">Enter the Refrigerant R23   </label>
+                <input type="text" name="name" id="R2" placeholder="In Liters" required />
+            </div>
+            <div class="refrigant-3">
+                <label for="name">Enter the Refrigerant R404A  </label>
+                <input type="text" name="name" id="R3" placeholder="In Liters" required />
+            </div>
+            <div class="refrigant-4">
+                <label for="name">Enter the Refrigerant R134A  </label>
+                <input type="text" name="name" id="R4" placeholder="In Liters" required />
+            </div>
+            
+            </div>
+        <div class="lpg">
+            <div class="lpgdata">
+                <label for="name">Enter the LPG consumption  </label>
+                <input type="text" name="name" id="lpg" placeholder="In Liters" required />
+            </div>
+            
+
+        </div>
+        <div class="png">
+            <div class="pngdata">
+                <label for="name">Enter the PNG consumption  </label>
+                <input type="text" name="name" id="png" placeholder="In Liters" required />
+            </div>
+        </div>
+    </form>
+    </div>
+    <div class="outer1">
+        <div class="inner1">
+            <!-- <button>PROCEED NOW !</button> -->
+            <!-- Link to index3.html with anchor tag -->
+            <!-- <a href="index4.html"><button>PROCEED NOW !</button></a> -->
+            <button onclick="saveToLocalstorage1('index4.html')">PROCEED NOW !</button>
+            <!-- <a href="index6.html?petrol=10&diesel=20"><button>PROCEED NOW !</button></a> -->
+              <!--in above line forcefully fetching data at index 6-->
+        </div>
+       </div>
+       
+    <script src="myscript.js"></script>
+   
+
+</body>
+</html>
